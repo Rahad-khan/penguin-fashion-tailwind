@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
     <!-- fontawesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./images/icons8-shop-location-42.png" type="image/x-icon">
     <!-- Tailwind css  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -17,20 +20,22 @@
         theme: {
           extend: {
             colors: {
-              clifford: '#da373d',
-              penguinHeader: '#FFFBF0',
-              penguspan: '#FABE4C',
-              pengubutton: '#A4BC46',
-            }
-          }
-        }
-      }
+              clifford: "#da373d",
+              penguinHeader: "#FFFBF0",
+              penguspan: "#FABE4C",
+              pengubutton: "#A4BC46",
+              pengucard: "#F1F1F1",
+              pengumain: "#E5E5E5",
+            },
+          },
+        },
+      };
     </script>
   </head>
 
   <body>
     <header class="bg-penguinHeader">
-        <!-- <nav class="flex items-center justify-between p-6 fixed w-full z-10 pin-t">
+      <!-- <nav class="flex items-center justify-between p-6 fixed w-full z-10 pin-t">
           <div class="flex items-center flex-no-shrink mr-6">
             <a class="no-underline" href="#">
               <img class="w-1/4" src="./images/logo.png" alt="">
@@ -60,27 +65,264 @@
             </ul>
           </div>
         </nav> -->
-        <section class="container mx-auto pt-14 pb-32 sm:flex items-center justify-around">
-          <div class="space-y-4 text-center sm:text-left">
-            <h1 class="text-6xl font-bold"><span class="text-penguspan">Be the Penguins</span> <br> of Winter</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing 
-              and typesetting industry.</p>
-            <button class="font-light text-white bg-pengubutton py-4 px-8 rounded" type="submit"> <i class="fas fa-shopping-cart"></i> BUY NOW</button>
-          </div>
-          <div class="flex items-center justify-center">
-            <img class="w-3/4 sm:w-full mt-8 sm:mt-0" src="./images/model.png" alt="">
-          </div>
-        </section>
+      <section
+        class="container mx-auto pt-14 pb-32 sm:flex items-center justify-around"
+      >
+        <div class="space-y-4 text-center sm:text-left">
+          <h1 class="text-4xl md:text-6xl font-bold ">
+            <span class="text-penguspan">Be the Penguins</span> <br />
+            of Winter
+          </h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="font-light text-white bg-pengubutton py-4 px-8 rounded"
+            type="submit"
+          >
+            <i class="fas fa-shopping-cart"></i> BUY NOW
+          </button>
+        </div>
+        <div class="flex items-center justify-center">
+          <img
+            class="w-3/4 sm:w-full mt-8 sm:mt-0"
+            src="./images/model.png"
+            alt=""
+          />
+        </div>
+      </section>
     </header>
+    <main class="py-12 bg-pengumain">
+      <!-- Woman jacket collection -->
 
+      <section class="container mx-auto">
+        <h3 class="text-3xl font-bold mb-5">
+          <span class="text-penguspan">W0Man</span> Jacket
+        </h3>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="p-5 bg-white rounded-2xl">
+            <div
+              class="bg-pengucard flex justify-center items-center rounded-xl drop-shadow-md"
+            >
+              <div>
+                <img src="./images/jacket-1.png" alt="" />
+              </div>
+            </div>
+            <div class="space-y-4 mt-4">
+              <h3 class="text-2xl font-semibold">Yellow Coat Jacket</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+                culpa?Lorem ipsum dolor sit amet.
+              </p>
+              <div class="flex justify-between">
+                <h3 class="text-3xl font-bold">
+                  <span class="text-penguspan">$234</span>
+                </h3>
+                <button
+                  class="font-light text-white bg-pengubutton py-4 px-8 rounded"
+                  type="submit"
+                >
+                  <i class="fas fa-shopping-cart"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 bg-white rounded-2xl">
+            <div
+              class="bg-pengucard flex justify-center items-center rounded-xl drop-shadow-md"
+            >
+              <div>
+                <img src="./images/jacket-2.png" alt="" />
+              </div>
+            </div>
+            <div class="space-y-4 mt-4">
+              <h3 class="text-2xl font-semibold">Ladies Jacket</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+                culpa?Lorem ipsum dolor sit amet.
+              </p>
+              <div class="flex justify-between">
+                <h3 class="text-3xl font-bold">
+                  <span class="text-penguspan">$234</span>
+                </h3>
+                <button
+                  class="font-light text-white bg-pengubutton py-4 px-8 rounded"
+                  type="submit"
+                >
+                  <i class="fas fa-shopping-cart"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 bg-white rounded-2xl">
+            <div
+              class="bg-pengucard flex justify-center items-center rounded-xl drop-shadow-md"
+            >
+              <div>
+                <img src="./images/jacket-3.png" alt="" />
+              </div>
+            </div>
+            <div class="space-y-4 mt-4">
+              <h3 class="text-2xl font-semibold">Woman Leather Jacket</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+                culpa?Lorem ipsum dolor sit amet.
+              </p>
+              <div class="flex justify-between">
+                <h3 class="text-3xl font-bold">
+                  <span class="text-penguspan">$234</span>
+                </h3>
+                <button
+                  class="font-light text-white bg-pengubutton py-4 px-8 rounded"
+                  type="submit"
+                >
+                  <i class="fas fa-shopping-cart"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- Woman jacket collection -->
 
+      <section class="container mx-auto mt-24 mb-32">
+        <h3 class="text-3xl font-bold mb-9">
+          <span class="text-penguspan">Man</span> Jacket
+        </h3>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="p-5 bg-white rounded-2xl">
+            <div
+              class="bg-pengucard flex justify-center items-center rounded-xl drop-shadow-md"
+            >
+              <div>
+                <img src="./images/jacket-4.png" alt="" />
+              </div>
+            </div>
+            <div class="space-y-4 mt-4">
+              <h3 class="text-2xl font-semibold">Snowboard Jacket Mens</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+                culpa?Lorem ipsum dolor sit amet.
+              </p>
+              <div class="flex justify-between">
+                <h3 class="text-3xl font-bold">
+                  <span class="text-penguspan">$234</span>
+                </h3>
+                <button
+                  class="font-light text-white bg-pengubutton py-4 px-8 rounded"
+                  type="submit"
+                >
+                  <i class="fas fa-shopping-cart"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 bg-white rounded-2xl">
+            <div
+              class="bg-pengucard flex justify-center items-center rounded-xl drop-shadow-md"
+            >
+              <div>
+                <img src="./images/jacket-5.png" alt="" />
+              </div>
+            </div>
+            <div class="space-y-4 mt-4">
+              <h3 class="text-2xl font-semibold">Man Leather Jackets</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+                culpa?Lorem ipsum dolor sit amet.
+              </p>
+              <div class="flex justify-between">
+                <h3 class="text-3xl font-bold">
+                  <span class="text-penguspan">$234</span>
+                </h3>
+                <button
+                  class="font-light text-white bg-pengubutton py-4 px-8 rounded"
+                  type="submit"
+                >
+                  <i class="fas fa-shopping-cart"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 bg-white rounded-2xl">
+            <div
+              class="bg-pengucard flex justify-center items-center rounded-xl drop-shadow-md"
+            >
+              <div>
+                <img src="./images/jacket-6.png" alt="" />
+              </div>
+            </div>
+            <div class="space-y-4 mt-4">
+              <h3 class="text-2xl font-semibold">Man Casual Jackets</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos,
+                culpa?Lorem ipsum dolor sit amet.
+              </p>
+              <div class="flex justify-between">
+                <h3 class="text-3xl font-bold">
+                  <span class="text-penguspan">$234</span>
+                </h3>
+                <button
+                  class="font-light text-white bg-pengubutton py-4 px-8 rounded"
+                  type="submit"
+                >
+                  <i class="fas fa-shopping-cart"></i> BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- services area -->
+      <section>
+        <div class="container mx-auto">
+          <div class="grid md:grid-cols-2 gap-y-4 gap-x-10">
+            <div class="bg-white md:flex justify-around  items-center p-6 gap-x-10 drop-shadow-md rounded-xl  order-2 md:order-none">
+              <div class="flex justify-center md:inline-flex">
+                <img class="w-24 h-24" src="./images/house.png" alt="">
+              </div>
+              <div class="text-center md:text-left">
+                <h4 class="font-semibold mb-2 text-2xl">Find the Perfect Fit</h4>
+                <p>Everybody is different, which is why we
+                  offer styles for every body.</p>
+              </div>
+            </div>
+            <div class="row-span-3 flex justify-center items-center order-1 md:order-none">
+              <img class="w-3/4 md:w-full" src="./images/shopping.png" alt="">
+            </div>
+            <div class="bg-white md:flex justify-around items-center p-6 gap-x-10 drop-shadow-md rounded-xl order-3 md:order-none">
+              <div class="flex justify-center md:inline-flex">
+                <img class="w-24 h-24" src="./images/box.png" alt="">
+              </div>
+              <div class="text-center md:text-left">
+                <h4 class="font-semibold mb-2 text-2xl">Free Exchanges</h4>
+                <p>One of the many reasons you can shop
+                  with peace of mind.</p>
+              </div>
+            </div>
+            <div class="bg-white md:flex justify-around items-center p-6 gap-x-10 drop-shadow-md rounded-xl order-4 md:order-none">
+              <div  class="flex justify-center md:inline-flex">
+                <img class="w-24 h-24" src="./images/question.png" alt="">
+              </div>
+              <div class="text-center md:text-left">
+                <h4 class="font-semibold mb-2 text-2xl">Contact Our Seller</h4>
+                <p>They are here to help you. That's quite 
+                  literally what we pay them for.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script>
       //Javascript to toggle the menu
-      document.getElementById('nav-toggle').onclick = function(){
+      document.getElementById("nav-toggle").onclick = function () {
         document.getElementById("nav-content").classList.toggle("hidden");
-      }
+      };
     </script>
   </body>
 </html>
